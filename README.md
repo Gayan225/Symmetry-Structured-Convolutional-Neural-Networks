@@ -11,8 +11,7 @@ pip install -r requirements.txt
 RNA experiments on sCNN kernels use the half Normal Glorot initialization.
 
 ## Training sCNN models from scratch
-###################################################################################
-1) To train sCNN model with hyperparameter match version on RNA problem with strand16 dataset
+To train sCNN model with hyperparameter match version on RNA problem with strand16 dataset
 ```
 python3 machine_HM.py --dataset strand16s --weight 5 --lr 0.002 
 ```
